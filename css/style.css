@@ -1,0 +1,123 @@
+.height {
+    min-height: 100vh;
+}
+.height-80 {
+    min-height: 100vh;
+}
+.text-underline {
+    color: red;
+    height: 10px;
+    width:200px;
+    margin: 0 auto;
+}
+.about-img {
+    background: url(../img/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.header-dark {
+    background:#082e63;
+}
+p {
+    font-family: "Times New Roman", Times, serif;
+    /* letter-spacing: 2px; */
+}
+.f-1 {
+    font-size:30px;
+    letter-spacing: 2px;;
+}
+.btn-rounded {
+    border-radius:40px;
+    background: #5276a8;
+    border: #5276a8;
+}
+.btn-rounded-light {
+    border-radius:40px;
+    /* background: #ffffff; */
+    border-color: #ffffff;
+}
+
+.wrapper:before,.wrapper:after{
+    content:" ";
+    width: 40px;
+    height: 1px;
+    margin: 0 10px;
+    vertical-align: super;
+    background-color:grey;
+    display:inline-block;
+  }
+.text-small {
+    font-size:12px;
+    /* font-family: "Times New Roman", Times, serif; */
+}
+.card-shadow {
+    box-shadow: 10px 10px;
+}
+.text-blue {
+    color:#5276a8;
+}
+.bg-light-blue {
+    background: #d5e4ed;
+}
+.bg-orange {
+    background: #f77307;
+}
+.rounded {
+    border-radius: 50% !important;
+}
+.hidden {
+    visibility: hidden;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+
+footer .list-unstyled li i{
+    float: left;
+    padding: 5px 7px 0 0;
+}
+footer .list-unstyled li {
+    margin-bottom: 10px;
+    font-size:12px;
+}
+footer .list-unstyled a {
+	color: #9ba1a7;
+	transition: all 0.3s ease-in-out;
+}
+footer .list-unstyled a:hover {
+	color: #1CA3E3;
+}
+.shadow-lg1 {
+    box-shadow: 0 1rem 3rem rgba(0,0,0,0)!important;
+}
+#mainNav {
+    font-weight: 400;
+    letter-spacing: 1px;
+    background: -webkit-linear-gradient(left bottom, #082e63, #082e63);
+    transition: all 0.35s ease 0s;
+    padding: 0.915rem 1rem;
+}
+
+
